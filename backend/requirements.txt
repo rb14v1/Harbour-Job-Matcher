@@ -1,7 +1,7 @@
-Django==5.2.8
+Django==5.2.9
 djangorestframework==3.18.2
-djangorestframework-simplejwt==5.3.1
-psycopg2-binary==2.9.9
+djangorestframework-simplejwt==5.5.1
+psycopg2-binary==2.9.10
 django-cors-headers==4.4.0
 python-decouple==3.8
 
@@ -12,7 +12,7 @@ pgvector==0.3.6
 
 # Only imported/called inside `if OPENAI_API_KEY:` branches in
 # apps/common/ai.py - safe to install even though no key is configured here.
-openai==1.54.4
+openai==1.109.1
 
 gunicorn==23.0.0
 
